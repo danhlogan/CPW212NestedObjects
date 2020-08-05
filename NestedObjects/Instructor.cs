@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace NestedObjects
 {
-    class Program
+    class Instructor
     {
-        static void Main(string[] args)
-        {
+        public string FullName { get; set; }
 
-        }
+        public string Email { get; set; }
+
     }
 }
